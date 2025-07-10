@@ -20,7 +20,7 @@
 #define BITBUF_COLS 40 // Number of bytes in a column
 #define BITBUF_ROWS 25
 #else
-#define BITBUF_COLS 2048 // Number of bytes in a column
+#define BITBUF_COLS 1024 // Number of bytes in a column
 #define BITBUF_ROWS 50
 #endif
 #define BITBUF_MAX_ROW_BITS (BITBUF_ROWS * BITBUF_COLS * 8) // Maximum number of bits per row, max UINT16_MAX
