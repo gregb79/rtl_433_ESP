@@ -18,7 +18,7 @@
 #include <stdio.h>
 
 #define PD_MAX_PULSES                                                          \
-  1200 // Maximum number of pulses before forcing End Of Package
+  18000 // Maximum number of pulses before forcing End Of Package
 #define PD_MIN_PULSES                                                          \
   16 // Minimum number of pulses before declaring a proper package
 #define PD_MIN_PULSE_SAMPLES                                                   \
